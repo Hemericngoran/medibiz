@@ -1,0 +1,309 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Gants Latex (boîte 100)",
+      "cat": "Consommable",
+      "qty": 450,
+      "pp": 3500,
+      "sp": 5500,
+      "supp": "MedSupply CI",
+      "min": 50
+    },
+    {
+      "id": 2,
+      "name": "Seringues 5ml (boîte 100)",
+      "cat": "Consommable",
+      "qty": 320,
+      "pp": 4200,
+      "sp": 6800,
+      "supp": "PharmaDist",
+      "min": 100
+    },
+    {
+      "id": 3,
+      "name": "Masques FFP2 (boîte 20)",
+      "cat": "EPI",
+      "qty": 28,
+      "pp": 8000,
+      "sp": 14000,
+      "supp": "SafeMed",
+      "min": 50
+    },
+    {
+      "id": 4,
+      "name": "Tensiomètre Digital",
+      "cat": "Appareil",
+      "qty": 15,
+      "pp": 45000,
+      "sp": 78000,
+      "supp": "MedEquip SA",
+      "min": 5
+    },
+    {
+      "id": 5,
+      "name": "Oxymètre de pouls",
+      "cat": "Appareil",
+      "qty": 22,
+      "pp": 18000,
+      "sp": 32000,
+      "supp": "MedEquip SA",
+      "min": 8
+    },
+    {
+      "id": 6,
+      "name": "Compresses stériles",
+      "cat": "Consommable",
+      "qty": 0,
+      "pp": 2500,
+      "sp": 4200,
+      "supp": "MedSupply CI",
+      "min": 80
+    },
+    {
+      "id": 7,
+      "name": "Alcool médical 500ml",
+      "cat": "Désinfectant",
+      "qty": 180,
+      "pp": 1200,
+      "sp": 2200,
+      "supp": "PharmaDist",
+      "min": 60
+    },
+    {
+      "id": 8,
+      "name": "Glucomètre + Bandelettes",
+      "cat": "Appareil",
+      "qty": 12,
+      "pp": 35000,
+      "sp": 58000,
+      "supp": "MedEquip SA",
+      "min": 5
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Kouassi Aimé",
+      "pos": "Directeur Commercial",
+      "sal": 350000,
+      "phone": "+225 07 12 34 56",
+      "email": "aime.k@medibiz.ci",
+      "status": "Actif"
+    },
+    {
+      "id": 2,
+      "name": "Diallo Fatou",
+      "pos": "Responsable Stock",
+      "sal": 220000,
+      "phone": "+225 05 98 76 54",
+      "email": "fatou.d@medibiz.ci",
+      "status": "Actif"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "MedSupply CI",
+      "ctt": "M. Traoré",
+      "phone": "+225 20 31 45 67",
+      "email": "contact@medsupply.ci",
+      "addr": "Abidjan, Plateau",
+      "cat": "Consommables"
+    },
+    {
+      "id": 2,
+      "name": "PharmaDist",
+      "ctt": "Mme. Coulibaly",
+      "phone": "+225 20 22 33 44",
+      "email": "info@pharmadist.ci",
+      "addr": "Abidjan, Zone 4",
+      "cat": "Médicaments"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "Clinique Sainte Marie",
+      "ctt": "Dr. Yao",
+      "phone": "+225 27 20 12 34",
+      "email": "achats@cliniquesm.ci",
+      "addr": "Cocody",
+      "cat": "Clinique",
+      "total": 2450000
+    },
+    {
+      "id": 2,
+      "name": "CHU de Treichville",
+      "ctt": "M. Gnébré",
+      "phone": "+225 27 21 23 45",
+      "email": "logistique@chu-tr.ci",
+      "addr": "Treichville",
+      "cat": "Hôpital",
+      "total": 5800000
+    }
+  ],
+  "orders": [],
+  "invoices": [
+    {
+      "id": 1,
+      "ref": "FAC-001",
+      "date": "2025-03-01",
+      "client": "CHU de Treichville",
+      "items": [
+        {
+          "name": "Gants Latex",
+          "qty": 50,
+          "pu": 5500
+        }
+      ],
+      "tva": 18,
+      "remise": 5,
+      "status": "Impayée",
+      "notes": ""
+    }
+  ],
+  "sales": [
+    {
+      "id": 1,
+      "date": "2025-03-18",
+      "product": "Gants Latex",
+      "qty": 20,
+      "pu": 5500,
+      "pp": 3500,
+      "client": "CHU de Treichville"
+    }
+  ],
+  "expenses": [
+    {
+      "id": 1,
+      "date": "2025-03-01",
+      "type": "Loyer",
+      "desc": "Loyer entrepôt Mars 2025",
+      "montant": 450000,
+      "cat": "Charges fixes"
+    }
+  ],
+  "devis": [],
+  "retours": [],
+  "lots": [
+    {
+      "id": 1,
+      "product": "Gants Latex (boîte 100)",
+      "lot": "LOT-2024-A",
+      "qty": 200,
+      "fabrication": "2024-01-15",
+      "peremption": "2026-01-15",
+      "supp": "MedSupply CI",
+      "statut": "Valide"
+    },
+    {
+      "id": 2,
+      "product": "Masques FFP2",
+      "lot": "LOT-2023-B",
+      "qty": 28,
+      "fabrication": "2023-06-01",
+      "peremption": "2025-06-01",
+      "supp": "SafeMed",
+      "statut": "Expiré bientôt"
+    }
+  ],
+  "paiements": [],
+  "inventaire": [],
+  "objectifs": [
+    {
+      "id": 1,
+      "titre": "CA Mensuel",
+      "cible": 7000000,
+      "actuel": 6200000,
+      "periode": "Mars 2025",
+      "cat": "Financier",
+      "unite": "FCFA"
+    }
+  ],
+  "journal": [],
+  "notifications": [
+    {
+      "id": 1773952200755.239,
+      "type": "lot",
+      "title": "🧪 Lots Expirant",
+      "message": "2 lot(s) expirant dans 60 jours",
+      "severity": "warning",
+      "date": "2026-03-19T20:30:00.755Z",
+      "read": false
+    },
+    {
+      "id": 1773952200750.9163,
+      "type": "invoice",
+      "title": "💰 Factures Impayées",
+      "message": "1 facture(s) impayée(s)",
+      "severity": "warning",
+      "date": "2026-03-19T20:30:00.750Z",
+      "read": false
+    },
+    {
+      "id": 1773952200746.066,
+      "type": "stock",
+      "title": "⚠️ Stock Faible",
+      "message": "1 produit(s) sous le seuil minimum",
+      "severity": "warning",
+      "date": "2026-03-19T20:30:00.746Z",
+      "read": false
+    },
+    {
+      "id": 1773952200741.2607,
+      "type": "stock",
+      "title": "🚨 Rupture de Stock",
+      "message": "1 produit(s) en rupture",
+      "severity": "danger",
+      "date": "2026-03-19T20:30:00.741Z",
+      "read": false
+    },
+    {
+      "id": 1773951082217.887,
+      "type": "lot",
+      "title": "🧪 Lots Expirant",
+      "message": "2 lot(s) expirant dans 60 jours",
+      "severity": "warning",
+      "date": "2026-03-19T20:11:22.218Z",
+      "read": false
+    },
+    {
+      "id": 1773951082164.6033,
+      "type": "invoice",
+      "title": "💰 Factures Impayées",
+      "message": "1 facture(s) impayée(s)",
+      "severity": "warning",
+      "date": "2026-03-19T20:11:22.165Z",
+      "read": false
+    },
+    {
+      "id": 1773951082158.421,
+      "type": "stock",
+      "title": "⚠️ Stock Faible",
+      "message": "1 produit(s) sous le seuil minimum",
+      "severity": "warning",
+      "date": "2026-03-19T20:11:22.158Z",
+      "read": false
+    },
+    {
+      "id": 1773951077453.3218,
+      "type": "stock",
+      "title": "🚨 Rupture de Stock",
+      "message": "1 produit(s) en rupture",
+      "severity": "danger",
+      "date": "2026-03-19T20:11:17.453Z",
+      "read": false
+    }
+  ],
+  "authUsers": [
+    {
+      "id": 1,
+      "name": "Administrateur",
+      "email": "admin@medibiz.ci",
+      "passwordHash": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+      "role": "Administrateur",
+      "status": "Actif"
+    }
+  ]
+}
